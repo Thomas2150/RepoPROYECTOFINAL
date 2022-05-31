@@ -138,3 +138,25 @@ header {
 .logo-footer {
     height: 80px;
 }
+
+/* TRANSFORMACIONES Y TRANSICIONES */
+
+.img-item:hover {
+    transform: scale(2);
+}
+
+.img-1 {
+    transition: all 2s;
+}
+
+.img-2 {
+    transition: all 2s;
+}
+
+.img-3 {
+    transition: all 2s;
+}
+
+.img-4 {
+    transition: all 2s;
+}
