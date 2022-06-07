@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
+    
 }
 
 li, a {
@@ -81,7 +81,7 @@ header {
 
 .presentacion-img {
     width: 100%;
-    margin-top: 150px;
+    
 }
 
 .img-trabajos {
@@ -98,11 +98,7 @@ header {
     color: white;
 }
 
-.h1-title {
-    border: 1px solid white;
-    padding: 10px 0px;
-    margin: 10%;
-}
+
 
 
 .marketing {
