@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito&family=Zen+Dots&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+/* Menu de Navegación */
+
+.menu-navegacion, header {
+    background-color: black;
+}
+
+.menu-navegacion {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.logo {
+    height: 80px;
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+}
+
+.enlaces li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+.menu-navegacion a:hover {
+    background-color: chocolate;
+}
+
+/* Imagen del HEADER */
+
+.img-header {
+    height: 500px;
+    background-image: url(/Multimedia/Imagenes/img-header.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white
+}
+
+.contenedor-textos {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-header h1 {
+    font-size: 40;
+    margin-bottom: 20px;
+}
+
+.img-header p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.boton {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Main */
+
