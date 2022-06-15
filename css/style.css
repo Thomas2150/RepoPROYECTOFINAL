@@ -3,11 +3,12 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
     font-family: 'Montserrat';
-    background-color: chocolate;
+    background-image: linear-gradient(black, chocolate, black);
 }
 
 .contenedor {
@@ -44,6 +45,7 @@ body {
 .enlaces li {
     list-style: none;
     display: inline-block;
+    
 
 }
 
@@ -61,12 +63,12 @@ body {
 
 .img-header {
     height: 500px;
-    background-image: url(/Multimedia/Imagenes/img-header.png);
+    background-image: url(/Multimedia/Imagenes/img-header.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    color: white
+    color: white;
 }
 
 .contenedor-textos {
@@ -101,18 +103,18 @@ body {
 
 /* TITULOS DE SECCIONES */
 
-section h2 {
+.container-titulo {
     text-align: center;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
+    padding: 0 150px;
+    margin-top: 50px;
 
 }
 
-.container-titulo {
-    padding-top: 60px;
-}
+
 
 
 
@@ -157,5 +159,37 @@ div i {
 footer {
     background-color: black;
     padding-top: 50px;
+}
+
+/* CONTRATAR */
+
+.h2-boton {
+    width: 250px;
+    background-color: blue;
+    border-radius: 150px;
+    text-align: center;
+}
+
+button a {
+    text-decoration: none;
+}
+
+/* FORMS */
+
+.section-form {
+    padding: 150px 0;
+  
+
+}
+
+/* MAIN */
+
+.text-h1 {
+    text-align: center;
+    color: black;
+}
+
+.h1-tittle {
+    color: black;
 }
 
