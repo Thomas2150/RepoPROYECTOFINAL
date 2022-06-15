@@ -50,7 +50,7 @@ body {
 .enlaces a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding-left: 10px;
+    padding: 0 5px 5px;
 }
 
 .menu-navegacion a:hover {
