@@ -1,0 +1,35 @@
+@import 'variables';
+
+
+footer {
+    background-color: $bg-color;
+    padding-top: 50px;
+    .contenedor {
+        .titulo-seccion {
+            text-align: center;
+            background-color: none;
+        }
+    }
+    .copy {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .titulo-seccion, .copy {
+        color: rgb(255, 255, 255);
+    }
+    div {
+        i {
+            color: white;
+        }
+    }
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        i {
+            font-size: 30px;
+            padding: 0 20px;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+<<<<<<< HEAD
+=======
+header {
+  background-color: black; }
+  header .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0; }
+  header .menu-navegacion, header header {
+    background-color: black; }
+  header .menu-navegacion {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; }
+    header .menu-navegacion .logo {
+      height: 80px; }
+      header .menu-navegacion .logo img {
+        display: block;
+        height: 100%; }
+    header .menu-navegacion .enlaces li {
+      list-style: none;
+      display: inline-block; }
+    header .menu-navegacion .enlaces a {
+      text-decoration: none;
+      color: white;
+      padding: 0 5px 5px; }
+    header .menu-navegacion a:hover {
+      background-color: chocolate; }
+  header .img-header {
+    height: 500px;
+    background-image: url(/Multimedia/Imagenes/img-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white; }
+    header .img-header h1 {
+      font-size: 40;
+      margin-bottom: 20px; }
+    header .img-header .contenedor-textos {
+      padding: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    header .img-header .boton {
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+      padding: 15px 0;
+      background-color: chocolate;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px; }
+    header .img-header p {
+      font-size: 20px;
+      margin-bottom: 40px; }
+
+footer {
+  background-color: black;
+  padding-top: 50px; }
+  footer .contenedor .titulo-seccion {
+    text-align: center;
+    background-color: none; }
+  footer .copy {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px; }
+  footer .titulo-seccion, footer .copy {
+    color: white; }
+  footer div i {
+    color: white; }
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; }
+    footer .redes-sociales i {
+      font-size: 30px;
+      padding: 0 20px; }
+
+body {
+  background-color: chocolate; }
+
+/* TITULOS DE SECCIONES */
+.container-titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0 150px;
+  margin-top: 50px; }
+
+/* FORMS */
+.section-form {
+  padding: 150px 0; }
+
+/* MAIN */
+.text-h1 {
+  text-align: center;
+  color: black; }
+
+.h1-tittle {
+  color: black; }
+>>>>>>> RAMA-SEIS
