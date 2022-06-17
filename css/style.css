@@ -1,5 +1,25 @@
-<<<<<<< HEAD
-=======
+footer {
+  background-color: black;
+  padding-top: 50px; }
+  footer .contenedor .titulo-seccion {
+    text-align: center;
+    background-color: none; }
+  footer .copy {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px; }
+  footer .titulo-seccion, footer .copy {
+    color: white; }
+  footer div i {
+    color: white; }
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; }
+    footer .redes-sociales i {
+      font-size: 30px;
+      padding: 0 20px; }
+
 header {
   background-color: black; }
   header .contenedor {
@@ -61,31 +81,6 @@ header {
       font-size: 20px;
       margin-bottom: 40px; }
 
-footer {
-  background-color: black;
-  padding-top: 50px; }
-  footer .contenedor .titulo-seccion {
-    text-align: center;
-    background-color: none; }
-  footer .copy {
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px; }
-  footer .titulo-seccion, footer .copy {
-    color: white; }
-  footer div i {
-    color: white; }
-  footer .redes-sociales {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px; }
-    footer .redes-sociales i {
-      font-size: 30px;
-      padding: 0 20px; }
-
-body {
-  background-color: chocolate; }
-
 /* TITULOS DE SECCIONES */
 .container-titulo {
   text-align: center;
@@ -107,4 +102,3 @@ body {
 
 .h1-tittle {
   color: black; }
->>>>>>> RAMA-SEIS
