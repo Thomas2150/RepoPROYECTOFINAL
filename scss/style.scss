@@ -1,6 +1,9 @@
 @import 'base/variables';
+@import 'base/extends';
+@import 'base/mixinds';
 @import 'components/footer';
 @import 'components/header';
+
 
 
 
@@ -8,13 +11,7 @@
 /* TITULOS DE SECCIONES */
 
 .container-titulo {
-    text-align: center;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 0 150px;
-    margin-top: 50px;
+    @extend %titulos-secciones;
 }
 
 /* FORMS */

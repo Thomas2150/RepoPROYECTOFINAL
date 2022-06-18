@@ -1,0 +1,24 @@
+
+
+
+
+%botones {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+%titulos-secciones {
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0 150px;
+    margin-top: 50px;
+}

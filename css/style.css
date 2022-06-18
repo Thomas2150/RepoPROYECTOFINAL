@@ -1,3 +1,12 @@
+.container-titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0 150px;
+  margin-top: 50px; }
+
 footer {
   background-color: black;
   padding-top: 50px; }
@@ -52,7 +61,7 @@ header {
       background-color: chocolate; }
   header .img-header {
     height: 500px;
-    background-image: url(/Multimedia/Imagenes/img-header.jpg);
+    background-image: url(/Multimedia/Imagenes/img-header.svg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -82,15 +91,6 @@ header {
       margin-bottom: 40px; }
 
 /* TITULOS DE SECCIONES */
-.container-titulo {
-  text-align: center;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 0 150px;
-  margin-top: 50px; }
-
 /* FORMS */
 .section-form {
   padding: 150px 0; }
