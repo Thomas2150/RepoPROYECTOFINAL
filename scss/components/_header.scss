@@ -3,16 +3,23 @@
 
 
 header {
-    background-color: black;
+    .section-header {
+        background-color: rgb(0, 0, 0);
+        box-shadow: 0px 7px 16px 4px rgba(255,154,0,1);
+        -webkit-box-shadow: 0px 7px 16px 4px rgba(255,154,0,1);
+        -moz-box-shadow: 0px 7px 16px 4px rgba(255,154,0,1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
     .contenedor {
     width: 90%;
     max-width: 1200px;
     margin: auto;
     overflow: hidden;
     padding: 60px 0;
-    }
-    .menu-navegacion, header {
-    background-color: black;
     }
     .menu-navegacion {
     padding: 0;
@@ -43,8 +50,8 @@ header {
         }
     } 
     .img-header {
-        height: 500px;
-        background-image: url(/Multimedia/Imagenes/img-header.svg);
+        height: 800px;
+        background-image: url(/Multimedia/Imagenes/img-header.webp);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;

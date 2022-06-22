@@ -3,15 +3,197 @@
 @import 'base/mixinds';
 @import 'components/footer';
 @import 'components/header';
+@import 'components/main';
+
+body {
+    background-color: black;
+}
 
 
 
 
+/* PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
+.izquierda {
+    background-color: black;
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha {
+    background-image: url(/Multimedia/Imagenes/redes-sociales-para-empresas-large-JKGhYjKMCp.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+
+}
+
+.creative {
+    color: white;
+}
+
+.creative2 {
+    color: chocolate;
+}
+
+.h2-div {
+    font-size: 60px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-top: 210px;
+    font-weight: bold;
+}
+
+.p-h2 {
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-left: 80px;
+    color: white;
+    font-weight: lighter;
+}
+
+.boton-div {
+    border: 3px solid white;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: -10px;
+
+}
+
+.container-icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+}
+
+/* FIN PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
+
+/* BENEFICIOS DE PUBLIT */
+
+.container-beneficios {
+    background-color: black;
+}
+
+.h2-beneficios {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.copy-text {
+    text-align: center;
+    color: rgb(184, 184, 184);
+    margin: 20px 0;
+    
+}
+
+.beneficios {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.beneficio {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(/Multimedia/Imagenes/beneficios-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: centerg;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 1px solid chocolate;
+}
+
+
+
+
+
+
+
+
+/* BENEFICIOS DE PUBLIT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h2-tittle {
+    width: 100%;   
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-1 {
+    background-color: black;
+}
+
+.cotenedor-descripcion {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+
+
+.text-descripcion {
+    padding-left: 15px;
+    padding-right: px;
+    font-size: 25px;
+}
+
+.img-descripcion {
+    height: 500px;
+}
 
 /* TITULOS DE SECCIONES */
 
 .container-titulo {
-    @extend %titulos-secciones;
+    text-align: center;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0 150px;
+    margin-top: 50px;
 }
 
 /* FORMS */
