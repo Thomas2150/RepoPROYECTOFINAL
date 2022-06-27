@@ -1,0 +1,74 @@
+
+
+
+
+/* PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
+.izquierda {
+    background-color: black;
+    height: 100vh;
+    width: 50%;
+}
+
+.derecha {
+    background-image: url(/Multimedia/Imagenes/redes-sociales-para-empresas-large-JKGhYjKMCp.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+
+}
+
+.creative {
+    color: white;
+}
+
+.creative2 {
+    color: chocolate;
+}
+
+.h2-div {
+    font-size: 60px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-top: 210px;
+    font-weight: bold;
+}
+
+.p-h2 {
+    font-size: 19px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-left: 80px;
+    color: white;
+    font-weight: lighter;
+}
+
+.boton-div {
+    border: 3px solid white;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: -10px;
+
+}
+
+.container-icons {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: white;
+}
+
+/* FIN PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
