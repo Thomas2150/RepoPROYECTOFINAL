@@ -1,7 +1,6 @@
 
 
 
-
 /* PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
 
 .izquierda {
@@ -10,15 +9,15 @@
     width: 50%;
 }
 
-.derecha {
-    background-image: url(/Multimedia/Imagenes/redes-sociales-para-empresas-large-JKGhYjKMCp.jpg);
+.derecha-2 {
+    background-image: url(/Multimedia/Imagenes/servicio-profesional.png);
     background-size: cover;
     background-position: center;
     width: 50%;
     height: 100vh;
 }
 
-#pantalla-dividida {
+#pantalla-dividida-2 {
     display: flex;
     border-top: 2px solid chocolate;
 
@@ -75,19 +74,6 @@
     align-items: center;
 }
 
+
+
 /* FIN PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
-
-/***** MEDIA QUERY *****/
-
-@media screen and (max-width: 800px) {
-    .h2-div {
-    font-size: 20px;
-    }
-    .izquierda, .derecha {
-        height: 80vh;
-    }
-    .container-icons {
-    font-size: 20px;
-    }   
-
-}

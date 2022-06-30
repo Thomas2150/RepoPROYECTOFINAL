@@ -3,13 +3,71 @@
 @import 'base/mixinds';
 @import 'components/footer';
 @import 'components/header';
+@import 'components/beneficios';
 @import 'components/main';
-@import 'components/pantalladividida1'
+@import 'components/pantalladividida1';
+@import 'components/pantalladividida2';
+@import 'components/diseñografico';
+@import 'components/gestionderedes';
+@import 'components/marketing';
 
 
 
+body {
+    background-color: black;
+    font-family: 'Montserrat';
+}
+
+/*  HTML/SEC */
 
 
+
+.h2-tittlee {
+    width: 100%;   
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.h2-tittlee h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.section-form {
+    display: flex;
+    padding-top: 50px;
+}
+
+.titulo-contratacion {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 100px;
+
+}
+
+.form-container {
+    height: 80vh;
+    width: 50%;
+}
+
+
+
+.img-container {
+    width: 50%;
+    height: 50%;
+}
+
+/*  HTML/SEC */
 
 
 .h2-tittle {
@@ -23,6 +81,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: bold;
 }
 
 .contenedor-1 {
@@ -59,11 +118,7 @@
     margin-top: 50px;
 }
 
-/* FORMS */
 
-.section-form {
-    padding: 150px 0;
-}
 
 /* MAIN */
 
@@ -75,3 +130,6 @@
 .h1-tittle {
     color: black;
 }
+
+
+

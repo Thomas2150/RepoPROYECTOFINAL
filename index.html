@@ -18,20 +18,34 @@
 
     <!-- Header -->
     <header>
-       <section class="section-header">
-          <nav class="menu-navegacion contenedor box-shadow">
-              <div class="logo">
-                  <img src="/Multimedia/Imagenes/LOGO PUBLIT.webp" alt="Logo PubliT">
-              </div>
-              <div class="enlaces">
-                  <li><a href="index.html">Inicio</a></li>
-                  <li><a href="Gestion-de-redes.html">Gestion de Redes</a></li>
-                  <li><a href="Marketing.html">Marketing</a></li>
-                  <li><a href="Diseño-Grafico.html">Diseño Grafico</a></li>
-                  <li><a href="#CONTACTO">Contacto</a></li>
-              </div>
-          </nav>
-        </section>
+      <section class="section-header">
+        <nav class="navbar navbar-expand-lg bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="/Multimedia/Imagenes/LOGO PUBLIT.webp" alt="">
+            </a>
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse enlaces" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white enlaces" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white enlaces-nav" href="Diseño-Grafico.html">Diseño Grafico</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white enlaces-nav" href="Gestion-de-redes.html">Gestion de Redes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white enlaces-nav" href="Marketing.html">Marketing</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
         <section class="img-header">
             <div class="contenedor-textos contenedor">
                 <h1>Contrata servicios de forma ONLINE</h1>
@@ -58,8 +72,7 @@
           <div class="container-icons">
             <i class="fa-solid fa-users"></i>
             <i class="fa-solid fa-square-poll-vertical"></i>
-            <i class="fa-solid fa-bullseye-arrow"></i>
-            <i class="fa-solid fa-chart-mixed"></i>
+            <i class="fa-solid fa-arrows-to-eye"></i>
           </div>
         </div>
         <div class="derecha"></div>
@@ -89,18 +102,6 @@
           </div>
         </div>
       </section>
-
-
-
-        
-        <!-- <section class="cotenedor-descripcion">
-          <img class="img-descripcion" src="/Multimedia/Imagenes/redes-sociales-para-empresas-large-JKGhYjKMCp.jpg" alt="">
-          <h2 class="h2-tittle">PubliT - Expandiendo Experiencias</h2>
-        </section> -->
-
-    
-
-        
 
         
         <section class="h2-tittle" id="trabajos">
@@ -154,7 +155,7 @@
             <div class="card-body">
               <h5 class="card-title">Marketing</h5>
               <p class="card-text">En esta seccion nos encargamos de idealizar estrategias de venta adaptadas a la situacion comercial actual, analizamos los intereses de tus clientes para darle mas efectividad a la publicidad, entre otras cosas.</p>
-              <a href="#" class="btn btn-warning">Conocer mas</a>
+              <a href="Marketing.html" class="btn btn-warning">Conocer mas</a>
             </div>
           </div>
 
@@ -163,7 +164,7 @@
             <div class="card-body">
               <h5 class="card-title">Diseño Grafico</h5>
               <p class="card-text">En esta seccion nos encargamos de producir el contenido grafico para ser lanzado al mercado, garantizando un producto de calidad ante los ojos del cliente.</p>
-              <a href="#" class="btn btn-warning">Conocer mas</a>
+              <a href="Diseño-Grafico.html" class="btn btn-warning">Conocer mas</a>
             </div>
           </div>
 
@@ -172,7 +173,7 @@
             <div class="card-body">
               <h5 class="card-title">Gestion de Redes</h5>
               <p class="card-text">En esta seccion nos encargamos de administrar las redes sociales de tu negocio para lograr un flujo de venta exitoso y un cliente satisfecho.</p>
-              <a href="#" class="btn btn-warning">Conocer mas</a>
+              <a href="Gestion-de-redes.html" class="btn btn-warning">Conocer mas</a>
             </div>
           </div>
        </div>
@@ -182,24 +183,23 @@
 
    <!-- Inicio Pantalla Dividida -->
 
-   <section id="pantalla-dividida">
-        <div class="izquierda">
-          <h2 class="h2-div">
-            <span class="creative">POTENCIANDO</span>
-            <span class="creative2">EXPERIENCIAS</span>
-          </h2>
-          <p class="p-h2">Aparecimos para renovar tu idea de publicidad. 
-            Venderte en redes es fundamental para potenciar tu comercio.
-          </p>
-          <div class="container-icons">
-            <i class="fa-solid fa-users"></i>
-            <i class="fa-solid fa-square-poll-vertical"></i>
-            <i class="fa-solid fa-bullseye-arrow"></i>
-            <i class="fa-solid fa-chart-mixed"></i>
-          </div>
-        </div>
-        <div class="derecha"></div>
-      </section>
+           <section id="pantalla-dividida-2">
+              <div class="izquierda">
+                <h2 class="h2-div">
+                  <span class="creative">SERVICIO</span>
+                  <span class="creative2">PROFESIONAL</span>
+                </h2>
+                <p class="p-h2">Formamos un equipo de profesionales listo para ayudarte.
+                  ¿Que estas esperando?
+                </p>
+                <div class="container-icons">
+                  <i class="fa-solid fa-users"></i>
+                  <i class="fa-solid fa-square-poll-vertical"></i>
+                  <i class="fa-solid fa-arrows-to-eye"></i>
+                </div>
+              </div>
+              <div class="derecha-2"></div>
+            </section>
 
    <!-- Fin Pantalla Dividida -->
 

@@ -1,0 +1,47 @@
+
+
+/* BENEFICIOS DE PUBLIT */
+
+.container-beneficios {
+    background-color: black;
+}
+
+.h2-beneficios {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.copy-text {
+    text-align: center;
+    color: rgb(184, 184, 184);
+    margin: 20px 0;
+    
+}
+
+.beneficios {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.beneficio {
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url(/Multimedia/Imagenes/beneficios-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 1px solid chocolate;
+}

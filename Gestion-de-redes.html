@@ -18,96 +18,111 @@
 
     <!-- Header -->
     <header>
-        <nav class="menu-navegacion contenedor">
-            <div class="logo">
-                <img src="/Multimedia/Imagenes/logo-img.svg" alt="Logo PubliT">
+      <section class="section-header">
+        <nav class="navbar navbar-expand-lg bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img class="logo" src="/Multimedia/Imagenes/LOGO PUBLIT.webp" alt="">
+            </a>
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse enlaces" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Diseño-Grafico.html">Diseño Grafico</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Marketing.html">Marketing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Gestion-de-redes.html">Gestion de Redes</a>
+                </li>
+              </ul>
             </div>
-            <div class="enlaces">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Gestion-de-redes.html">Gestion de Redes</a></li>
-                <li><a href="Marketing.html">Marketing</a></li>
-                <li><a href="Diseño-Grafico.html">Diseño Grafico</a></li>
-                <li><a href="#CONTACTO">Contacto</a></li>
-            </div>
+          </div>
         </nav>
-        <section class="img-header">
-            <div class="contenedor-textos contenedor">
-                <h1>GESTION DE REDES</h1>
+      </section>
+        <section class="img-header-gestion">
+            <div class="contenedor-textos-gestion contenedor-gestion">
+                <h1>Contrata servicios de forma ONLINE</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quas delectus architecto, in voluptas sint vel illum necessitatibus adipisci sapiente voluptatibus. Esse ullam quam hic explicabo sed! Facilis, debitis molestiae?</p>
+                <a class="boton-gestion" href="">Mas info</a>
             </div>
         </section>
     </header>
     <!-- Fin Header -->
 
-<!-- Main -->
-
-    <section>
-        <h1 class="d-flex justify-content-center mt-5 h1-tittle">Servicio de Gestion de Redes</h1>
-    </section>
-
-    <section>
-        <p class="d-flex justify-content-center text-h1">En la seccion Gestion de Redes ofrecemos un amplio servicio estilo "Community Manager" desde crearte una estrategia de venta hasta lanzar un nuevo producto a tu comercio. Estudiamos todos los vertices del mercado y de tu comercio para lograr un trabajo exitoso.</p>
-    </section>
-
-
-<!-- ACORDEON PREGUNTAS -->
-<section class="d-flex justify-content-center">
-  <div class="accordion accordion-flush mt-5 w-50" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          Produccion de LOGOTIPOS.
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Creamos logotipos en base a la necesidad del cliente. Con una previa entrevista para consultar ciertos datos rutinarios del diseño podemos crear una identidad para tu comercio/emprendimiento.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Produccion de Publicidad Grafica.
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Creamos publicidad grafica en el mercado general, trabajamos en todos los rubros del comercio para publicitar tu proucto con EXITO!</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          Produccion grafica en conjunto con imprenta.
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Trabajamos en conjunto con imprentas que garantizan calidad, con esto incluimos diseños para ploteos de vidrieras, carteles, stickers, folletos y MUCHO MAS!</div>
-      </div>
-    </div>
-  </div>
+    <!-- Main -->
+<section class="h2-tittlee">
+    <h2 class="">Servicio de Gestion de Redes</h2>
+    <p class="">En la seccion Diseño Grafico ofrecemos un servicio de diseño general, pero tambien dandote la posibilidad de que eligas que trabajo necesitas. Desde la creaccion de un logo hasta un folleto, creamos la identidad de tu comercio/emprendimiento y lo lanzamos al mercado.</p>
 </section>
-<!-- ACORDEON PREGUNTAS -->
 
+
+<!-- ACORDEON PREGUNTAS -->
+  <section class="d-flex justify-content-center m-100 mb-5 mt-5">
+    <div class="accordion accordion-flush w-75" id="accordionFlushExample">
+      <h2></h2>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Produccion de LOGOTIPOS.
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Creamos logotipos en base a la necesidad del cliente. Con una previa entrevista para consultar ciertos datos rutinarios del diseño podemos crear una identidad para tu comercio/emprendimiento.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Produccion de Publicidad Grafica.
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Creamos publicidad grafica en el mercado general, trabajamos en todos los rubros del comercio para publicitar tu proucto con EXITO!</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Produccion grafica en conjunto con imprenta.
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Trabajamos en conjunto con imprentas que garantizan calidad, con esto incluimos diseños para ploteos de vidrieras, carteles, stickers, folletos y MUCHO MAS!</div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ACORDEON PREGUNTAS -->
 
 
 <!-- FORMS -->
-
+<section class="h2-tittle">
+  <h2>Si desea contratar este servicio complete este formulario con los siguientes datos:</h2>
+</section>
 <section class="container section-form">
-  <form>
-  <div class="mb-3 col-12 col-md-6">
-    <label for="exampleInputEmail1" class="form-label w-">Nombre</label>
+  <form class="form-container">
+  <div class="mb-3 col-12 col-md-6 w-75">
+    <label for="exampleInputEmail1" class="form-label text-white">Nombre</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
- <div class="mb-3 col-12 col-md-6">
-    <label for="exampleInputEmail1" class="form-label w-">Apellido</label>
+ <div class="mb-3 col-12 col-md-6 w-75">
+    <label for="exampleInputEmail1" class="form-label text-white">Apellido</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
-  <div class="mb-3 col-12 col-md-6">
-    <label for="exampleInputEmail1" class="form-label w-">Email</label>
+  <div class="mb-3 col-12 col-md-6 w-75">
+    <label for="exampleInputEmail1" class="form-label text-white">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Nos contactaremos a este email en las proximas 24hs.</div>
+    <div id="emailHelp" class="form-text text-white">Nos contactaremos a este email en las proximas 24hs.</div>
   </div>
-  <div class="mb-3 w-50">
-      <label for="disabledSelect" class="form-label">Servicio que desea contratar.</label>
+  <div class="mb-3 w-75">
+      <label for="disabledSelect" class="form-label text-white">Servicio que desea contratar.</label>
       <select id="disabledSelect" class="form-select">
         <option>Diseño Grafico</option>
         <option>Gestion de Redes</option>
@@ -116,9 +131,13 @@
   </div>
   <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
+<img class="img-container" src="/Multimedia/Imagenes/imagen-formulario.png" alt="">
 </section>
 
 <!-- FIN FORMS -->
+
+<!-- text contratacion -->
+<h3 class="titulo-contratacion">Una vez completado el formulario nos contactaremos con vos en las proximas 24hs para continuar con los pasos siguientes de la contratacion.</h2>
 
 
 

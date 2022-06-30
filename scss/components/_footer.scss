@@ -32,5 +32,9 @@ footer {
             font-size: 30px;
             padding: 0 20px;
         }
+        i:hover {
+            transform: scale(1.5);
+            transition: all 1s;
+        }
     }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 footer {
   background-color: chocolate;
   padding-top: 50px; }
@@ -19,6 +20,17 @@ footer {
     footer .redes-sociales i {
       font-size: 30px;
       padding: 0 20px; }
+    footer .redes-sociales i:hover {
+      transform: scale(1.5);
+      transition: all 1s; }
+
+/* Inicio HEADER*/
+header a:hover {
+  transition: all 0.5s;
+  background-color: chocolate; }
+
+header a {
+  margin: 0 10px; }
 
 header .section-header {
   background-color: black;
@@ -38,30 +50,19 @@ header .contenedor {
   overflow: hidden;
   padding: 60px 0; }
 
+header .logo {
+  height: 80px; }
+
 header .menu-navegacion {
   padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px; }
-  header .menu-navegacion .logo {
-    height: 80px; }
-    header .menu-navegacion .logo img {
-      display: block;
-      height: 100%; }
-  header .menu-navegacion .enlaces li {
-    list-style: none;
-    display: inline-block; }
-  header .menu-navegacion .enlaces a {
-    text-decoration: none;
-    color: white;
-    padding: 0 5px 5px; }
-  header .menu-navegacion a:hover {
-    background-color: chocolate; }
 
 header .img-header {
   height: 800px;
-  background-image: url(/Multimedia/Imagenes/img-header.webp);
+  background-image: url(/Multimedia/Imagenes/img-header.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -90,8 +91,45 @@ header .img-header {
     font-size: 20px;
     margin-bottom: 40px; }
 
-body {
+/* Fin HEADER*/
+/* BENEFICIOS DE PUBLIT */
+.container-beneficios {
   background-color: black; }
+
+.h2-beneficios {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 40px;
+  font-weight: bold; }
+
+.copy-text {
+  text-align: center;
+  color: #b8b8b8;
+  margin: 20px 0; }
+
+.beneficios {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.beneficio {
+  font-size: 20px;
+  width: 10em;
+  height: 10em;
+  background-image: url(/Multimedia/Imagenes/beneficios-img.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 1px solid chocolate; }
 
 /* PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
 .izquierda {
@@ -107,7 +145,8 @@ body {
   height: 100vh; }
 
 #pantalla-dividida {
-  display: flex; }
+  display: flex;
+  border-top: 2px solid chocolate; }
 
 .creative {
   color: white; }
@@ -147,50 +186,240 @@ body {
 .container-icons {
   font-size: 40px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-top: 50px;
-  color: white; }
+  padding-right: 370px;
+  color: white;
+  align-items: center; }
 
 /* FIN PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
-/* BENEFICIOS DE PUBLIT */
-.container-beneficios {
-  background-color: black; }
+/***** MEDIA QUERY *****/
+@media screen and (max-width: 800px) {
+  .h2-div {
+    font-size: 20px; }
+  .izquierda, .derecha {
+    height: 80vh; }
+  .container-icons {
+    font-size: 20px; } }
 
-.h2-beneficios {
-  text-align: center;
-  font-size: 35px;
-  color: white;
-  margin-top: 40px;
-  font-weight: bold; }
+/* PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
+.izquierda {
+  background-color: black;
+  height: 100vh;
+  width: 50%; }
 
-.copy-text {
-  text-align: center;
-  color: #b8b8b8;
-  margin: 20px 0; }
-
-.beneficios {
-  padding-top: 40px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
-
-.beneficio {
-  font-size: 20px;
-  width: 10em;
-  height: 10em;
-  background-image: url(/Multimedia/Imagenes/beneficios-img.jpg);
+.derecha-2 {
+  background-image: url(/Multimedia/Imagenes/servicio-profesional.png);
   background-size: cover;
   background-position: center;
-  color: white;
-  display: flex;
-  align-items: center;
-  text-align: centerg;
-  justify-content: center;
-  border-radius: 50%;
-  margin-bottom: 40px;
-  border: 1px solid chocolate; }
+  width: 50%;
+  height: 100vh; }
 
-/* BENEFICIOS DE PUBLIT */
+#pantalla-dividida-2 {
+  display: flex;
+  border-top: 2px solid chocolate; }
+
+.creative {
+  color: white; }
+
+.creative2 {
+  color: chocolate; }
+
+.h2-div {
+  font-size: 60px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  margin-top: 210px;
+  font-weight: bold; }
+
+.p-h2 {
+  font-size: 19px;
+  line-height: 30px;
+  width: 50%;
+  margin: auto;
+  margin-left: 80px;
+  color: white;
+  font-weight: lighter; }
+
+.boton-div {
+  border: 3px solid white;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: -10px; }
+
+.container-icons {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-right: 370px;
+  color: white;
+  align-items: center; }
+
+/* FIN PONTENCIANDO EXPERIENCIAS - PANTALLA DIVIDIDA */
+header .contenedor-diseño {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0; }
+
+header .img-header-diseño {
+  height: 800px;
+  background-image: url(/Multimedia/Imagenes/img-header-diseño.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white; }
+  header .img-header-diseño h1 {
+    font-size: 40;
+    margin-bottom: 20px; }
+  header .img-header-diseño .contenedor-textos-diseño {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  header .img-header-diseño .boton-diseño {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; }
+  header .img-header-diseño p {
+    font-size: 20px;
+    margin-bottom: 40px; }
+
+header .contenedor-gestion {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0; }
+
+header .img-header-gestion {
+  height: 800px;
+  background-image: url(/Multimedia/Imagenes/img-header-cm.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white; }
+  header .img-header-gestion h1 {
+    font-size: 40;
+    margin-bottom: 20px; }
+  header .img-header-gestion .contenedor-textos-gestion {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  header .img-header-gestion .boton-gestion {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; }
+  header .img-header-gestion p {
+    font-size: 20px;
+    margin-bottom: 40px; }
+
+header .contenedor-mark {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0; }
+
+header .img-header-mark {
+  height: 800px;
+  background-image: url(/Multimedia/Imagenes/img-header-marketing.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white; }
+  header .img-header-mark h1 {
+    font-size: 40;
+    margin-bottom: 20px; }
+  header .img-header-mark .contenedor-textos-mark {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  header .img-header-mark .boton-mark {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; }
+  header .img-header-mark p {
+    font-size: 20px;
+    margin-bottom: 40px; }
+
+body {
+  background-color: black;
+  font-family: 'Montserrat'; }
+
+/*  HTML/SEC */
+.h2-tittlee {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: chocolate;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.h2-tittlee h2 {
+  font-weight: bold;
+  font-size: 50px; }
+
+.section-form {
+  display: flex;
+  padding-top: 50px; }
+
+.titulo-contratacion {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding-bottom: 100px; }
+
+.form-container {
+  height: 80vh;
+  width: 50%; }
+
+.img-container {
+  width: 50%;
+  height: 50%; }
+
+/*  HTML/SEC */
 .h2-tittle {
   width: 100%;
   display: block;
@@ -201,7 +430,8 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 .contenedor-1 {
   background-color: black; }
@@ -228,10 +458,6 @@ body {
   justify-content: center;
   padding: 0 150px;
   margin-top: 50px; }
-
-/* FORMS */
-.section-form {
-  padding: 150px 0; }
 
 /* MAIN */
 .text-h1 {
